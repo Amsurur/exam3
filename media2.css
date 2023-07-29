@@ -1,0 +1,73 @@
+@media (max-width:480px) {
+    .second-card{
+    background-color: #FFFFFF;
+    padding: 90px 40px;
+    width:90% ;
+    display: flex;
+    flex-direction: column; 
+    border-radius: 20px;
+     justify-content: space-evenly!important;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #F2F2F2;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Sintony', sans-serif;
+    
+  
+  }
+  .burger{
+  display: block;
+  }
+  .gg-menu {
+    transform: scale(var(--ggs,1))
+}
+.gg-menu,
+.gg-menu::after,
+.gg-menu::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 3px;
+    background: currentColor
+}
+.gg-menu::after,
+.gg-menu::before {
+    content: "";
+    position: absolute;
+    top: -6px
+}
+.gg-menu::after {
+    top: 6px
+}
+.second-2{
+  margin-top: 1000px
+}
+  .second{
+    padding-bottom: 100px auto;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .card-5{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 19px;
+    border: 1px solid #E2E2E2;
+    
+      }
+      .card-5-left{
+        border-radius: 19px 0px 0px 19px;
+        background-color: #DCDCDC;  
+        width: 500px;
+        height: 100%;
+        flex-shrink: 0;
+        }
+        .seven-left{
+          width: 100%;
+          border-radius: 20px;
+        }
+}
